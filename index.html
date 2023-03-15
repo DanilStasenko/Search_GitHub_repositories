@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search repositories</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title container">Search repositories</h1>
+    <div class="container">
+        <form class="form">
+            <label for="input" class="form-label check">Какой репозиторий Вы хотите найти?</label>
+            <input type="text" id="input" class="form-input" placeholder="Введите название репозитория" data-rule="input">
+            <p class="msgError"></p>
+            <input type="submit" class="btn" value="Искать">
+        </form>
+        <div class="list">
+        </div>
+    </div>
+   <script src="script/searchRepo.js"></script>
+</body>
+</html>
